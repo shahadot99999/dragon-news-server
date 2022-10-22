@@ -43,3 +43,5 @@ app.get('/news', (req, res) => {
 app.listen(port, () => {
     console.log('Dragon News Server Runnig on Port', port);
 })
+
+module.exports = app;
